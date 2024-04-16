@@ -1,14 +1,12 @@
 #!/usr/bin/env python3
+'''The module define `Prompt` class that serves as interactive mode
+chat prompt to obtain info about a pdf file
+'''
 import os
 import cmd
 import google.generativeai as genai
 from pdfminer.high_level import extract_text
 from google.auth import sys
-"""
-At the command line, only need to run once to install the package via pip:
-
-$ pip install google-generativeai
-"""
 
 # convo = model.start_chat()
 
@@ -78,9 +76,9 @@ class Prompt(cmd.Cmd):
             line: prompt to provide for gemini
         Notes:
             the function assumes there's a pdf file called 6.pdf
-            feel free to change this to obtain some info about the the cf
+            feel free to change this to obtain some info about the the cv
         '''
-        input_ = extract_text("6.pdf").strip()
+        input_ = extract_text("cv.pdf").strip()
         resp = self.model.generate_content([line, input_], stream=True)
         for chunk in resp:
             print(chunk.text)
