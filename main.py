@@ -75,7 +75,7 @@ class Prompt(cmd.Cmd):
         Args:
             line: prompt to provide for gemini
         Notes:
-            the function assumes there's a pdf file called 6.pdf
+            the function assumes there's a pdf file called cv.pdf
             feel free to change this to obtain some info about the the cv
         '''
         input_ = extract_text("cv.pdf").strip()
