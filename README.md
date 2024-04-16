@@ -12,5 +12,5 @@ The application parses a pdf file, and feed the context to google `Gemini` AI to
 
 ## How to use:
 
-The application assumes there's a `6.pdf` in your project tree, feel free to change that.</b>
+The application assumes there's a `cv.pdf` in your project tree, feel free to change that.</b>
 run ` GOOGLE_API_KEY=<your-api-key> python3 main.py` then you'll have your prompt initialized, you can ask the AI anyhting about the provided resume.
