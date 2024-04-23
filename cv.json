@@ -1,0 +1,81 @@
+{
+ "name": "Mohamed Elfadil",
+ "email":
+ "Mo7amedelfadil@gmail.com",
+ "phone": "1148350379",
+ "github":
+ "github.com/mo7amedElfadil",
+ "linkedin": "linkedin.com/in/mohamedelfadil",
+ "location": "Madinaty, Egypt",
+ "summary": " I am a Software Engineer, recognized by my peers for my leadership and resourcefulness.  A communicative
+ and  encouraging  team  player  who  presents  ideas effectively and is able to assist others. With a strong passion for Software development, Data Science, and teaching.    I  am  currently  on  working  on  building  an AirBnb clone Stack.",
+ "work_experience": [
+  {
+   "title": "Business Intelligence Analyst",
+   "company": "eFleet Management Co. Ltd.",
+   "location": null,
+   "start_date": "June '22",
+   "end_date": "April '23",
+   "description
+": "- Developed software solutions to Vehicle Routing Problem and was in charge of all routing projects.\n- Established long-term and value-added relationships with assigned business partners.\n- Operationalized business intelligence solutions to meet business goals. Presented and communicated the findings in an understandable and actionable way tailored to the customer's needs.\n- Managed data pipelines and implemented changes to streamline the daily tasks.\n- Collaborated with team members for the purpose of collecting data and executing the company’s mission.\n- Generated ad-hoc reports and dashboards."
+  },
+  {
+   "title": "Development of a Performance Monitoring Dashboard",
+   "company": "Halan Co. ltd. Sudan",
+   "location": null,
+   "start_date": "Jan '22",
+   "end_date": "Mar '22",
+   "description": "- Worked with the key stakeholders of the organization, identified KPIs to track to offer the organization a competitive advantage through data driven decision making.\n- Utilized SQL and Python to extract, transform, and load the data. Analysed and visualized using Python to be displayed on the dashboard.\n- Built a web application linking the dashboard and data entry to the database to improve the
+ performance of the data entry process and ensure data integrity. \n- Trained a Lasso Regression Machine Learning algorithm that forecasts the organization’s weekly target.\n- The system provides the stakeholders with multilevel access according to their roles in the organization and security clearance, as well as interactive visualizations, and real-time reports on demand."
+  },
+  {
+   "title": "Internship",
+   "company": "International Research and Development Center @ Future University",
+   "location": null,
+   "start_date": "Feb '21",
+   "end_date": "Sept '21",
+   "description": "- Developed a QR-code based inventory management Flutter application for staff and students to track the resources available and any changes made.\n- Assisted head of IRDC in training staff and members of the development team on Python through lectures and workshops."
+  }
+ ],
+ "education": [
+  {
+   "degree": "B.S. in Computer Science",
+   "university": "Future University",
+   "location": "Khartoum, Sudan",
+   "start_date": "'17",
+   "end_date": "'22",
+   "gpa": "3.69"
+  }
+ ],
+ "certificates": [
+  "Data Science Orientation",
+  "Tools for Data Science",
+  "Intro to Machine Learning",
+  "Data Science Methodology",
+  "Python for Data Science and AI",
+  "Python"
+ ],
+ "skills": [
+  "Data Analysis",
+  "Trend Identification",
+  "Visualization of Insights",
+  "Database Design and Management",
+  "Software Development",
+  "Computer Programming",
+  "Teaching"
+ ],
+ "languages": [
+  "English (Native)",
+  "Arabic (Native)"
+ ],
+ "interests": [
+  "Data Science and Analytics",
+  "Machine Learning and Deep Learning",
+  "Software Development",
+  "Teaching",
+  "Engineering",
+  "Nature",
+  "Travel",
+  "Video Games"
+ ]
+}
