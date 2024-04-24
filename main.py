@@ -2,11 +2,11 @@
 '''The module define `Prompt` class that serves as interactive mode
 chat prompt to obtain info about a pdf file
 '''
-import os
+import sys
 import cmd
+import os
 import google.generativeai as genai
 from pdfminer.high_level import extract_text
-from google.auth import sys
 
 # convo = model.start_chat()
 
@@ -80,8 +80,11 @@ class Prompt(cmd.Cmd):
         '''
         input_ = extract_text("cv.pdf").strip()
         resp = self.model.generate_content([line, input_], stream=True)
-        for chunk in resp:
-            print(chunk.text)
+        try:
+            for chunk in resp:
+                print(chunk.text)
+        except Exception:
+            self.default(line)
 
 
 if __name__ == '__main__':
